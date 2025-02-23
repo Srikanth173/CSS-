@@ -1,0 +1,92 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+#checkbox{
+    display: none;
+
+}
+.a{
+    position: relative;
+    left:-20%;
+    transition: 0.6s;
+}
+#checkbox:checked+.a{
+    left:2%;
+}
+a{
+    text-decoration: none;
+    color:black
+}
+
+
+
+#sri{
+    display: none;
+}
+.kanth{
+    position: relative;
+    transition: 0.8s;
+    left:-20%;
+}
+
+#sri:checked+.kanth{
+left:2%;
+}
+#s{
+    display: none;
+}
+.k{
+  position: absolute;
+    transition:1s ;
+    left:-20%;
+}
+#s:checked+.k{left: 10%;
+
+}
+
+
+
+
+
+
+
+
+
+    </style>
+</head>
+<body>
+    <label for="checkbox">MENU </label>
+    <input type="checkbox" id="checkbox">
+    <div class="a">
+    <div><a href="#l">MENU</a></div>
+    <div><a href="#m">ITEMS</a></div>
+    <div><a href="#n">SOME THIG</a></div>
+</div>
+
+
+
+<label for="sri"> &#9776;</label>
+<input type="checkbox" id="sri">
+<div class="kanth">
+    <div class=""><a href="#q">vinay</a></div>
+    <div class=""><a href="#w">gopal</a></div>
+    <div class=""><a href="#e">yuvraj</a></div>
+</div>
+
+<label for="s"> &#9776;</label>
+<input type="checkbox" id="s">
+<div class="k">
+    <div class=""><a href="#q">vinay</a></div>
+    <div class=""><a href="#w">gopal</a></div>
+    <div class=""><a href="#e">yuvraj</a></div>
+</div>
+
+
+
+</body>
+</html>
